@@ -1,0 +1,9 @@
+---
+applications:
+- name: bumba
+  framework: standalone
+  runtime: java7
+  memory: 1G
+  instances: 1
+  url: bumba.${target-base}
+  path: .
